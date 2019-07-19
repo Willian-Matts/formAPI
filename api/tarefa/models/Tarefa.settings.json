@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "tarefas",
+  "info": {
+    "name": "tarefa",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "horaCriacaoTarefa": {
+      "type": "string"
+    },
+    "horaEntregaTarefa": {
+      "type": "string"
+    }
+  }
+}
